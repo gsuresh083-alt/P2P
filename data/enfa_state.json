@@ -1,0 +1,615 @@
+{
+  "nfas": {
+    "nfa_demo_preloaded_2026": {
+      "no": "NFA/2026/DEMO",
+      "id": "nfa_demo_preloaded_2026",
+      "versions": [
+        {
+          "ver": "V1.0",
+          "status": "Draft",
+          "createdOn": "2026-11-15T13:10:11.993Z",
+          "createdBy": "Buyer",
+          "reason": "Preloaded demonstration record",
+          "data": {
+            "techMode": "Vendor-wise",
+            "project": {
+              "projectNo": "SP/2026/DEMO",
+              "name": "Mill Rolls Procurement – Demonstration",
+              "requester": "Plant Maintenance HOD",
+              "dept": "Rolling Mill",
+              "scope": "Procurement of three mill roll items for rolling mill operations. Demonstration data only.",
+              "category": "Rolls",
+              "budget": "OPEX",
+              "estimate": 1300000,
+              "route": "Limited RFQ",
+              "needBy": "2027-06-03",
+              "rfqTarget": "2026-11-15",
+              "awardTarget": "2026-12-15",
+              "buyer": "SCM Buyer – Demo",
+              "tech": "Mechanical HOD – Demo",
+              "team": "User Department – Requirement; SCM – Sourcing; Technical – Evaluation; Finance – Review"
+            },
+            "header": {
+              "company": "AFRZEN",
+              "plant": "Rolling Mill – Demo Plant",
+              "prNo": "PR-DEMO-2026-001",
+              "prDate": "2026-11-10",
+              "needBy": "2027-06-03",
+              "dept": "Rolling Mill",
+              "cat": "Rolls",
+              "budget": "OPEX",
+              "budgetCode": "OPEX-RM-2026",
+              "budgetAvail": 1500000,
+              "route": "Limited RFQ",
+              "rfqNo": "RFQ-DEMO-2026-001",
+              "rfqDate": "2026-11-15",
+              "rfqDue": "2026-11-22",
+              "cur": "INR",
+              "contacted": 3,
+              "desc": "Procurement of three mill roll items for rolling mill operations.",
+              "just": "Replacement of worn mill rolls to maintain production reliability and product quality.",
+              "mb": "Buy",
+              "place": "Rolling Mill – Demo Plant",
+              "buyer": "SCM Buyer – Demo",
+              "tech": "Mechanical HOD – Demo",
+              "committee": "SCM, Mechanical, Finance",
+              "lpPO": "See item-wise LPP in CS",
+              "lppVal": "",
+              "consum": 1100000,
+              "lifeLast": "12 months",
+              "lifeExp": "12–18 months",
+              "estimate": 1300000
+            },
+            "vendors": [
+              {
+                "name": "M/s M K Alloys",
+                "code": "",
+                "ref": "QUOT-DEMO-1",
+                "qdate": "2026-11-15",
+                "fdate": "",
+                "terms": {
+                  "cur": "INR",
+                  "fxRate": 1,
+                  "fxDate": "2026-11-15",
+                  "fxSource": "Not applicable – INR quotation",
+                  "basis": "Ex-works Mandi Gobindgarh",
+                  "delLoc": "AFRZEN Demo Plant",
+                  "pay": "25% adv against ABG, bal against PI after",
+                  "adv": 25,
+                  "advSec": "ABG",
+                  "delTxt": "3 Months from Advance & Drawing Approval",
+                  "delDays": 90,
+                  "freight": "Extra at actuals",
+                  "fr": 2,
+                  "pf": 0,
+                  "ins": 2,
+                  "oth": 0,
+                  "gst": 18,
+                  "warr": "12 months from supply",
+                  "pbg": "",
+                  "ld": "0.5%/week, max 5%",
+                  "insp": "In-house",
+                  "valid": 30,
+                  "firm": "Firm",
+                  "reg": "Yes",
+                  "dev": ""
+                },
+                "techEval": {
+                  "evaluator": "Mechanical HOD – Demo",
+                  "date": "2026-11-15",
+                  "status": "Accepted",
+                  "submitted": true,
+                  "submittedOn": "2026-11-15T13:19:39.983Z",
+                  "decisionNote": "Technically acceptable for demonstration.",
+                  "criteria": {
+                    "spec": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "material": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "drawings": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "quality": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "scope": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "delivery": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "warranty": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    }
+                  }
+                },
+                "qterms": {
+                  "basis": "Ex-works Mandi Gobindgarh",
+                  "delLoc": "AFRZEN Demo Plant",
+                  "pay": "25% adv against ABG, bal against PI after readiness before dispatch",
+                  "adv": 30,
+                  "advSec": "ABG",
+                  "delTxt": "4 Months from Advance & Drawing Approval",
+                  "delDays": 120,
+                  "freight": "Extra at actuals",
+                  "fr": 4.5,
+                  "pf": 0,
+                  "ins": 2,
+                  "oth": 0,
+                  "gst": 18,
+                  "warr": "12 months from supply",
+                  "pbg": "",
+                  "ld": "0.5%/week, max 5%",
+                  "insp": "In-house",
+                  "valid": 15,
+                  "firm": "Firm",
+                  "reg": "Yes",
+                  "dev": ""
+                },
+                "termsNeg": true,
+                "quoteSubmittedAt": "2026-11-15T13:17:58.553Z",
+                "negSubmittedAt": "2026-11-15T13:23:53.984Z"
+              },
+              {
+                "name": "M/s Shiva Metal Rolls",
+                "code": "",
+                "ref": "QUOT-DEMO-2",
+                "qdate": "2026-11-15",
+                "fdate": "",
+                "terms": {
+                  "cur": "INR",
+                  "fxRate": 1,
+                  "fxDate": "2026-11-15",
+                  "fxSource": "Not applicable – INR quotation",
+                  "basis": "FOR JNPT Port",
+                  "delLoc": "AFRZEN Demo Plant",
+                  "pay": "10% adv against undated SC, bal against PI after readiness before dispatch",
+                  "adv": 10,
+                  "advSec": "Undated SC",
+                  "delTxt": "2 Months from Advance & Drawing Approval",
+                  "delDays": 60,
+                  "freight": "Included",
+                  "fr": 0,
+                  "pf": 0,
+                  "ins": 0,
+                  "oth": 0,
+                  "gst": 18,
+                  "warr": "18 months from supply",
+                  "pbg": "",
+                  "ld": "0.5%/week, max 5%",
+                  "insp": "In-house",
+                  "valid": 30,
+                  "firm": "Firm",
+                  "reg": "Yes",
+                  "dev": ""
+                },
+                "techEval": {
+                  "evaluator": "Mechanical HOD – Demo",
+                  "date": "2026-11-15",
+                  "status": "Accepted",
+                  "submitted": true,
+                  "submittedOn": "2026-11-15T13:19:39.983Z",
+                  "decisionNote": "Technically acceptable for demonstration.",
+                  "criteria": {
+                    "spec": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "material": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "drawings": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "quality": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "scope": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "delivery": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "warranty": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    }
+                  }
+                },
+                "qterms": {
+                  "basis": "FOR JNPT Port",
+                  "delLoc": "AFRZEN Demo Plant",
+                  "pay": "10% adv against undated SC, bal against PI after readiness before dispatch",
+                  "adv": 10,
+                  "advSec": "Undated SC",
+                  "delTxt": "2 Months from Advance & Drawing Approval",
+                  "delDays": 60,
+                  "freight": "Extra at actuals",
+                  "fr": 3,
+                  "pf": 2,
+                  "ins": 0,
+                  "oth": 0,
+                  "gst": 18,
+                  "warr": "12 months from supply",
+                  "pbg": "",
+                  "ld": "0.5%/week, max 5%",
+                  "insp": "In-house",
+                  "valid": 21,
+                  "firm": "Firm",
+                  "reg": "Yes",
+                  "dev": ""
+                },
+                "termsNeg": true,
+                "attachments": [
+                  {
+                    "id": "att-1794748570776-7esu9",
+                    "name": "RFQ-2026-104_Technical_Spec_RevB.pdf",
+                    "mimeType": "application/pdf",
+                    "sizeBytes": 2751,
+                    "uploadedAt": "2026-11-15T13:16:10.776Z",
+                    "uploadedBy": "M/s Shiva Metal Rolls",
+                    "phase": "negotiation",
+                    "dataUrl": "data:application/pdf;base64,JVBERi0xLjQKMSAwIG9iago8PCAvVHlwZSAvQ2F0YWxvZyAvUGFnZXMgMiAwIFIgPj4KZW5kb2JqCjIgMCBvYmoKPDwgL1R5cGUgL1BhZ2VzIC9LaWRzIFszIDAgUl0gL0NvdW50IDEgPj4KZW5kb2JqCjMgMCBvYmoKPDwgL1R5cGUgL1BhZ2UgL1BhcmVudCAyIDAgUiAvTWVkaWFCb3ggWzAgMCA2MTIgNzkyXSAvQ29udGVudHMgNCAwIFIgL1Jlc291cmNlcyA8PCAvRm9udCA8PCAvRjEgNSAwIFIgL0YyIDYgMCBSIC9GMyA3IDAgUiA+PiA+PiA+PgplbmRvYmoKNCAwIG9iago8PCAvTGVuZ3RoIDIwMDEgPj4Kc3RyZWFtCjAuMTE0IDAuMzA2IDAuODQ3IHJnCjQ4IDc0MiA1MTYgMiByZSBmCjAuMDU5IDAuMDkwIDAuMTY1IHJnCkJUIC9GMiAxNiBUZiA0OCA3NTYgVGQgKEJVWUVSIFRFQ0hOSUNBTCBTUEVDSUZJQ0FUSU9OIC0gUkZRLTIwMjYtMTA0KSBUaiBFVAowLjI3OCAwLjMzMyAwLjQxMiByZwpCVCAvRjEgMTAgVGYgNDggNzI0IFRkIChQcm9qZWN0OiBRNCBBdXRvbWF0ZWQgQ29udmV5b3IgQ2hhc3NpcyAmIFNlbnNvciBCcmFja2V0cyB8IFJldmlzaW9uIEIpIFRqIEVUCjAuODg2IDAuOTEwIDAuOTQxIFJHIDAuOCB3IDQ4IDcxMiBtIDU2NCA3MTIgbCBTCjAuMDU5IDAuMDkwIDAuMTY1IHJnCkJUIC9GMiAxMSBUZiA0OCA2OTAgVGQgKDEuIFNjb3BlICYgUXVhbGl0eSBTdGFuZGFyZHMpIFRqIEVUCjAuMTE4IDAuMTYxIDAuMjMxIHJnCkJUIC9GMyA5LjUgVGYgNDggNjcyIFRkIChBbGwgbWFjaGluZWQgYWx1bWludW0gcHJvZmlsZXMgbXVzdCBjb25mb3JtIHRvIEFTVE0gQjIyMSBBbGxveSA2MDYxLVQ2LikgVGogRVQKMC4xMTggMC4xNjEgMC4yMzEgcmcKQlQgL0YzIDkuNSBUZiA0OCA2NTcgVGQgKEFub2RpemUgY29hdGluZyB0aGlja25lc3M6IDEyLTE4IG1pY3JvbnMgY2xlYXIgVHlwZSBJSSBwZXIgTUlMLUEtODYyNS4pIFRqIEVUCjAuODg2IDAuOTEwIDAuOTQxIFJHIDAuNSB3IDQ4IDY0NiBtIDU2NCA2NDYgbCBTCjAuMDU5IDAuMDkwIDAuMTY1IHJnCkJUIC9GMiAxMSBUZiA0OCA2MjggVGQgKDIuIENhbm9uaWNhbCBMaW5lIEl0ZW0gU2NoZWR1bGUpIFRqIEVUCjAuMTE4IDAuMTYxIDAuMjMxIHJnCkJUIC9GMyA5LjUgVGYgNDggNjEwIFRkICgwMSB8IENPTlYtUkFJTC0yNDAgfCA2MDYxLVQ2IFNpZGUgUmFpbCBGcmFtZSAgICAgICB8IFF0eTogIDgwIHBjcyAgfCBUYXJnZXQ6ICQ2OC4wMCkgVGogRVQKMC4xMTggMC4xNjEgMC4yMzEgcmcKQlQgL0YzIDkuNSBUZiA0OCA1OTUgVGQgKDAyIHwgU0VOUy1CUkstMDkgICB8IDMwNFNTIE9wdGljYWwgU2Vuc29yIEJyYWNrZXQgICB8IFF0eTogMjQwIHBjcyAgfCBUYXJnZXQ6ICQxMS41MCkgVGogRVQKMC4xMTggMC4xNjEgMC4yMzEgcmcKQlQgL0YzIDkuNSBUZiA0OCA1ODAgVGQgKDAzIHwgQlJHLVBJTC00MiAgICB8IFJvbGxlciBCZWFyaW5nIFBpbGxvdyBCbG9jayAgICB8IFF0eTogMTYwIHBjcyAgfCBUYXJnZXQ6ICQyNC4wMCkgVGogRVQKMC4xMTggMC4xNjEgMC4yMzEgcmcKQlQgL0YzIDkuNSBUZiA0OCA1NjUgVGQgKDA0IHwgRU5DLUpCT1gtMTIgICB8IElQNjUgTW90b3IgRHJpdmUgSnVuY3Rpb24gQm94ICB8IFF0eTogIDQwIHNldHMgfCBUYXJnZXQ6ICQ1Mi4wMCkgVGogRVQKMC44ODYgMC45MTAgMC45NDEgUkcgMC41IHcgNDggNTU0IG0gNTY0IDU1NCBsIFMKMC4wNTkgMC4wOTAgMC4xNjUgcmcKQlQgL0YyIDExIFRmIDQ4IDUzNiBUZCAoMy4gRGVsaXZlcnkgJiBJbnNwZWN0aW9uIFJlcXVpcmVtZW50cykgVGogRVQKMC4xMTggMC4xNjEgMC4yMzEgcmcKQlQgL0YzIDkuNSBUZiA0OCA1MTggVGQgKFNoaXAgVG86IENvbHVtYnVzIEZ1bGZpbGxtZW50IEh1YiwgRG9jayA0QiwgQ29sdW1idXMgT0ggNDMyMTUpIFRqIEVUCjAuMTE4IDAuMTYxIDAuMjMxIHJnCkJUIC9GMyA5LjUgVGYgNDggNTAzIFRkIChSZXF1aXJlZCBEb2N1bWVudGF0aW9uOiBNYXRlcmlhbCBDZXJ0cyBcKEVOIDEwMjA0IDMuMVwpICsgQ01NIERpbWVuc2lvbmFsIFNoZWV0LikgVGogRVQKMC4xMTggMC4xNjEgMC4yMzEgcmcKQlQgL0YzIDkuNSBUZiA0OCA0ODggVGQgKFBhY2thZ2luZzogSW5kaXZpZHVhbCBmb2FtIGRpdmlkZXJzIGJldHdlZW4gYW5vZGl6ZWQgcmFpbHMgdG8gcHJldmVudCBzY3VmZmluZy4pIFRqIEVUCjAuODg2IDAuOTEwIDAuOTQxIFJHIDAuNSB3IDQ4IDUyIG0gNTY0IDUyIGwgUwowLjM5MiAwLjQ1NSAwLjU0NSByZwpCVCAvRjEgOC41IFRmIDQ4IDM4IFRkIChQcm9jdXJlTGVkZ2VyIENvbnRyb2xsZWQgRG9jdW1lbnQgLSBHZW5lcmF0ZWQgZm9yIFJGUSBFdmFsdWF0aW9uKSBUaiBFVAplbmRzdHJlYW0KZW5kb2JqCjUgMCBvYmoKPDwgL1R5cGUgL0ZvbnQgL1N1YnR5cGUgL1R5cGUxIC9CYXNlRm9udCAvSGVsdmV0aWNhID4+CmVuZG9iago2IDAgb2JqCjw8IC9UeXBlIC9Gb250IC9TdWJ0eXBlIC9UeXBlMSAvQmFzZUZvbnQgL0hlbHZldGljYS1Cb2xkID4+CmVuZG9iago3IDAgb2JqCjw8IC9UeXBlIC9Gb250IC9TdWJ0eXBlIC9UeXBlMSAvQmFzZUZvbnQgL0NvdXJpZXIgPj4KZW5kb2JqCnhyZWYKMCA4CjAwMDAwMDAwMDAgNjU1MzUgZiAKMDAwMDAwMDAwOSAwMDAwMCBuIAowMDAwMDAwMDU4IDAwMDAwIG4gCjAwMDAwMDAxMTUgMDAwMDAgbiAKMDAwMDAwMDI2MSAwMDAwMCBuIAowMDAwMDAyMzE0IDAwMDAwIG4gCjAwMDAwMDIzODQgMDAwMDAgbiAKMDAwMDAwMjQ1OSAwMDAwMCBuIAp0cmFpbGVyCjw8IC9TaXplIDggL1Jvb3QgMSAwIFIgPj4Kc3RhcnR4cmVmCjI1MjcKJSVFT0YK"
+                  }
+                ],
+                "quoteSubmittedAt": "2026-11-15T13:18:40.337Z"
+              },
+              {
+                "name": "M/s Behari Lal Ispat",
+                "code": "",
+                "ref": "QUOT-DEMO-3",
+                "qdate": "2026-11-15",
+                "fdate": "",
+                "terms": {
+                  "cur": "USD",
+                  "fxRate": 93,
+                  "fxDate": "2026-11-15",
+                  "fxSource": "RBI",
+                  "basis": "FOR JNPT Port",
+                  "delLoc": "AFRZEN Demo Plant",
+                  "pay": "25% adv against PI, bal against PI after readiness before dispatch",
+                  "adv": 25,
+                  "advSec": "None",
+                  "delTxt": "4 Months from Advance & Drawing Approval",
+                  "delDays": 120,
+                  "freight": "Included",
+                  "fr": 0,
+                  "pf": 0,
+                  "ins": 0,
+                  "oth": 0,
+                  "gst": 18,
+                  "warr": "12 months from commissioning",
+                  "pbg": "",
+                  "ld": "0.5%/week, max 5%",
+                  "insp": "In-house",
+                  "valid": 30,
+                  "firm": "Firm",
+                  "reg": "Yes",
+                  "dev": "Hardness tolerance ±3 HRC instead of ±2"
+                },
+                "techEval": {
+                  "evaluator": "Mechanical HOD – Demo",
+                  "date": "2026-11-15",
+                  "status": "Accepted",
+                  "submitted": true,
+                  "submittedOn": "2026-11-15T13:19:39.983Z",
+                  "decisionNote": "Technically acceptable for demonstration.",
+                  "criteria": {
+                    "spec": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "material": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "drawings": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "quality": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "scope": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "delivery": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    },
+                    "warranty": {
+                      "result": "Pass",
+                      "note": "Complies with RFQ requirement"
+                    }
+                  }
+                },
+                "qterms": {
+                  "basis": "FOR JNPT Port",
+                  "delLoc": "AFRZEN Demo Plant",
+                  "pay": "25% adv against PI, bal against PI after readiness before dispatch",
+                  "adv": 30,
+                  "advSec": "None",
+                  "delTxt": "5 Months from Advance & Drawing Approval",
+                  "delDays": 150,
+                  "freight": "Included",
+                  "fr": 0,
+                  "pf": 0,
+                  "ins": 0,
+                  "oth": 0,
+                  "gst": 18,
+                  "warr": "12 months from commissioning",
+                  "pbg": "",
+                  "ld": "0.5%/week, max 5%",
+                  "insp": "In-house",
+                  "valid": 7,
+                  "firm": "Firm",
+                  "reg": "Yes",
+                  "dev": "Hardness tolerance ±3 HRC instead of ±2"
+                },
+                "termsNeg": true,
+                "negSubmittedAt": "2026-11-15T13:17:12.803Z"
+              }
+            ],
+            "erp": {
+              "mode": "not-connected",
+              "prLines": [],
+              "selected": {},
+              "filters": {
+                "companyCode": "",
+                "plantCode": "",
+                "prNumber": "",
+                "itemCode": ""
+              },
+              "selectionApplied": false,
+              "lastSync": null,
+              "reservationId": null
+            },
+            "items": [
+              {
+                "code": "SPMERLL5291407",
+                "desc": "ROLLS DIA 580X1500X2700, DRG OSPL-J.S.R.M.I/1482, ADAMITE hardness 45-50",
+                "uom": "NOS",
+                "qty": 1,
+                "r": [
+                  {
+                    "q": 426650,
+                    "n": 350000
+                  },
+                  {
+                    "q": 478000,
+                    "n": 470000
+                  },
+                  {
+                    "q": 472000,
+                    "n": 462000
+                  }
+                ],
+                "lpp": {
+                  "status": "Available",
+                  "rate": 410000,
+                  "po": "PO-DEMO-2025-014 / 15-10-2025",
+                  "vendor": "M/s M K Alloys"
+                }
+              },
+              {
+                "code": "SPMERLL5291471",
+                "desc": "ROLLS, BOTTOM ROLL, SIZE 610X1000X2245MM, SGI, HRD 58-63, DRG J.S.R.M.I/1516-1",
+                "uom": "NOS",
+                "qty": 1,
+                "r": [
+                  {
+                    "q": 455000,
+                    "n": 400000
+                  },
+                  {
+                    "q": 322490,
+                    "n": 306365.5
+                  },
+                  {
+                    "q": 395000,
+                    "n": 386000
+                  }
+                ],
+                "lpp": {
+                  "status": "Available",
+                  "rate": 320000,
+                  "po": "PO-DEMO-2025-021 / 02-12-2025",
+                  "vendor": "M/s Shiva Metal Rolls"
+                }
+              },
+              {
+                "code": "SPMERLL5291408",
+                "desc": "ROLLS DIA 600X1100X2300, DRG OSPL-J.S.R.M.I/1482-1, ADAMITE hardness 45-50",
+                "uom": "NOS",
+                "qty": 1,
+                "r": [
+                  {
+                    "q": 415000,
+                    "n": 385000
+                  },
+                  {
+                    "q": 520000,
+                    "n": 506000
+                  },
+                  {
+                    "q": 350175,
+                    "n": 332666.25
+                  }
+                ],
+                "lpp": {
+                  "status": "Available",
+                  "rate": 345000,
+                  "po": "PO-DEMO-2025-014 / 15-10-2025",
+                  "vendor": "M/s M K Alloys"
+                }
+              }
+            ],
+            "nfa": {
+              "award": "Item-wise L1",
+              "rationale": "Award recommendation is based on the item-wise landed cost comparison of technically accepted vendors. Any L2 selection is separately identified with an item-level reason.",
+              "nonL1": "Demonstration justification: L2 selected for one line to illustrate the NFA L1/L2 selection and audit-reason field. Validate actual commercial and operational grounds before using a live NFA.",
+              "lppJust": "Current recommendation compared with the previous purchase and approved estimate; validate benchmark comparability before live submission.",
+              "special": "Supply schedule, inspection and warranty shall be as recorded in the vendor commercial terms.",
+              "remarks": "Pre-filled illustrative data for reviewing the NFA screen and L1/L2 selection controls.",
+              "decl": "Yes",
+              "ov": {
+                "0": "2"
+              },
+              "ovr": {
+                "0": "Illustrative L2 selection: use this field to record a documented delivery, quality, capacity or total-cost reason in a live case."
+              },
+              "lppJ": {
+                "0": "Adamite roll prices up on Ni/Mo alloy index since last PO (Oct-25); L2 selected for earlier delivery. Increase within market trend."
+              }
+            },
+            "workflow": {
+              "submitted": {
+                "proj": {
+                  "at": "2026-11-15T13:10:11.993Z",
+                  "by": "Buyer"
+                },
+                "pr": {
+                  "at": "2026-11-15T13:10:11.993Z",
+                  "by": "Buyer"
+                },
+                "hdr": {
+                  "at": "2026-11-15T13:10:11.993Z",
+                  "by": "Buyer"
+                },
+                "quo": {
+                  "at": "2026-11-15T13:19:02.118Z",
+                  "by": "Buyer"
+                },
+                "qtc": {
+                  "at": "2026-11-15T13:19:28.603Z",
+                  "by": "Buyer"
+                },
+                "tech": {
+                  "at": "2026-11-15T13:19:39.983Z",
+                  "by": "User HOD (Technical)"
+                }
+              }
+            }
+          },
+          "approvals": [],
+          "audit": [
+            {
+              "t": "2026-11-15T13:10:11.993Z",
+              "u": "System Demo",
+              "e": "Preloaded sample sourcing project, RFQ, quotations, technical evaluation, negotiation and CS for NFA review."
+            },
+            {
+              "t": "2026-11-15T13:16:10.778Z",
+              "u": "Vendor",
+              "e": "Uploaded attachment \"RFQ-2026-104_Technical_Spec_RevB.pdf\" for M/s Shiva Metal Rolls"
+            },
+            {
+              "t": "2026-11-15T13:16:37.555Z",
+              "u": "Vendor",
+              "e": "Quote currency for M/s Behari Lal Ispat set to USD"
+            },
+            {
+              "t": "2026-11-15T13:17:12.803Z",
+              "u": "Vendor",
+              "e": "Revised / negotiated offer submitted via Vendor Portal by M/s Behari Lal Ispat"
+            },
+            {
+              "t": "2026-11-15T13:17:58.553Z",
+              "u": "Vendor",
+              "e": "Vendor quotation submitted via Vendor Portal by M/s M K Alloys (Ref: QUOT-DEMO-1)"
+            },
+            {
+              "t": "2026-11-15T13:18:40.337Z",
+              "u": "Vendor",
+              "e": "Vendor quotation submitted via Vendor Portal by M/s Shiva Metal Rolls (Ref: QUOT-DEMO-2)"
+            },
+            {
+              "t": "2026-11-15T13:19:02.118Z",
+              "u": "Buyer",
+              "e": "Quotation currencies captured: M/s M K Alloys = INR; M/s Shiva Metal Rolls = INR; M/s Behari Lal Ispat = USD @ 93 INR (2026-11-15, RBI)"
+            },
+            {
+              "t": "2026-11-15T13:19:02.118Z",
+              "u": "Buyer",
+              "e": "QUO stage submitted by Buyer; next stage: qtc"
+            },
+            {
+              "t": "2026-11-15T13:19:28.603Z",
+              "u": "Buyer",
+              "e": "Quoted terms copied as the starting point for negotiated terms (1 value(s))"
+            },
+            {
+              "t": "2026-11-15T13:19:28.604Z",
+              "u": "Buyer",
+              "e": "QTC stage submitted by Buyer; next stage: tech"
+            },
+            {
+              "t": "2026-11-15T13:19:39.983Z",
+              "u": "User HOD (Technical)",
+              "e": "Technical evaluation submitted (Vendor-wise) for 3 quoted vendor(s); accepted lines released to negotiation and CS."
+            },
+            {
+              "t": "2026-11-15T13:23:53.984Z",
+              "u": "Vendor",
+              "e": "Revised / negotiated offer submitted via Vendor Portal by M/s M K Alloys"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "cur": "nfa_demo_preloaded_2026",
+  "tab": "trm",
+  "role": "Vendor",
+  "doa": [
+    {
+      "from": 0,
+      "to": 500000,
+      "final": "Head – SCM",
+      "fin": false,
+      "days": 3
+    },
+    {
+      "from": 500000,
+      "to": 2500000,
+      "final": "COO / Plant Head",
+      "fin": false,
+      "days": 5
+    },
+    {
+      "from": 2500000,
+      "to": 10000000,
+      "final": "CFO",
+      "fin": true,
+      "days": 7
+    },
+    {
+      "from": 10000000,
+      "to": 1000000000000000,
+      "final": "MD / CEO",
+      "fin": true,
+      "days": 10
+    }
+  ],
+  "doaLog": [],
+  "seq": 26909,
+  "demoSeeded": true,
+  "lastInternalTab": "trm",
+  "activeVendorIdx": 0
+}
